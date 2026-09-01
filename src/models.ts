@@ -90,3 +90,23 @@ export function resolveCustomModel<T extends {
   }
   return config
 }
+
+/**
+ * Re-resolve every custom model anywhere in a loaded scene.
+ *
+ * Custom models turn up in more places than the mark: mark parts, per-category
+ * shapes, a collection's own object, decorations - and each carries the asset
+ * URL of whichever build exported it. Walking the whole structure keeps this
+ * correct as the shape of a scene grows, instead of listing paths by hand.
+ */
+export function resolveAllModels<T>(value: T): T {
+  if (Array.isArray(value)) return value.map((v) => resolveAllModels(v)) as unknown as T
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {}
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) out[k] = resolveAllModels(v)
+    return ('shape' in out
+      ? resolveCustomModel(out as unknown as Parameters<typeof resolveCustomModel>[0])
+      : out) as unknown as T
+  }
+  return value
+}
