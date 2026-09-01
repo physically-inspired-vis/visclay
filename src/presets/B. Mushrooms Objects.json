@@ -1,0 +1,533 @@
+{
+  "level": 1,
+  "activeElement": "scene",
+  "markConfig": {
+    "shape": "sphere",
+    "material": "plastic",
+    "color": "#F06951",
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1,
+    "size": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "orientation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "structural": {
+      "deformation": "none",
+      "fluidDistort": 0.35,
+      "fluidSpeed": 1.5
+    }
+  },
+  "col1Config": {
+    "arrangement": "alignment",
+    "color": "#5E5CE6",
+    "alignCount": 5,
+    "alignAxis": "X",
+    "alignSpacing": 1.5,
+    "alignAnchor": "center",
+    "scatterMode": "count",
+    "scatterCount": 50,
+    "scatterDimensions": {
+      "x": 4.5,
+      "y": 4,
+      "z": 3
+    },
+    "scatterDensity": 1,
+    "pilingCount": 10
+  },
+  "col2Config": {
+    "arrangement": "alignment",
+    "color": "#9D9BF4",
+    "alignCount": 3,
+    "alignAxis": "X",
+    "alignSpacing": 0.5,
+    "alignAnchor": "center",
+    "scatterMode": "count",
+    "scatterCount": 30,
+    "scatterDimensions": {
+      "x": 20,
+      "y": 6,
+      "z": 8
+    },
+    "scatterDensity": 1,
+    "pilingCount": 10
+  },
+  "sceneConfig": {
+    "background": "dark",
+    "hdriPreset": "city",
+    "focalLength": 130,
+    "sceneTitleShow": false
+  },
+  "bindings": {
+    "markColor": null,
+    "markGeometry": null,
+    "scatterSize": null,
+    "scatterCount": null,
+    "c1AlignCount": null,
+    "c2AlignCount": null,
+    "markSizeX": null,
+    "markSizeY": null,
+    "markSizeZ": null,
+    "markScale": null
+  },
+  "markLabelConfig": {
+    "show": false,
+    "slots": {
+      "top": [],
+      "bottom": [],
+      "left": [],
+      "right": []
+    }
+  },
+  "colLabelConfig": {
+    "show": false,
+    "slots": {
+      "top": [],
+      "bottom": [],
+      "left": [],
+      "right": []
+    }
+  },
+  "decorations": [
+    {
+      "id": "dec_1785240398912",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 0,
+        "y": 0.07597511353412223,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/toxic_barrel.glb",
+      "customModelHasMat": true,
+      "customModelName": "toxic_barrel"
+    },
+    {
+      "id": "dec_1785240404225",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 3.142274607608607,
+        "y": 1.536828273316611,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/realistic_mushroom.glb",
+      "customModelHasMat": true,
+      "customModelName": "realistic_mushroom"
+    },
+    {
+      "id": "dec_1785240407354",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 3.0278357053545273,
+        "y": -1.5,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/poison_bottle.glb",
+      "customModelHasMat": true,
+      "customModelName": "poison_bottle"
+    },
+    {
+      "id": "dec_1785240413168",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": -1.4814160853488367,
+        "y": 0.06324202238396426,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/pine_tree.glb",
+      "customModelHasMat": true,
+      "customModelName": "pine_tree"
+    },
+    {
+      "id": "dec_1785240416907",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 1.544065453841783,
+        "y": -1.5,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/mushroom.glb",
+      "customModelHasMat": true,
+      "customModelName": "mushroom"
+    },
+    {
+      "id": "dec_1785240420088",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 3.10334803347824,
+        "y": 0.050559734480474905,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/log.glb",
+      "customModelHasMat": true,
+      "customModelName": "log"
+    },
+    {
+      "id": "dec_1785240423521",
+      "shape": "custom",
+      "material": "fluid",
+      "color": "#ab50e9",
+      "position": {
+        "x": 1.4965956348298275,
+        "y": 1.593260010625818,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/liquid_landscape.glb",
+      "customModelHasMat": true,
+      "customModelName": "liquid_landscape"
+    },
+    {
+      "id": "dec_1785240426792",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": -1.4836777259185083,
+        "y": -1.5,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 48,
+        "y": 9,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/leaf.glb",
+      "customModelHasMat": true,
+      "customModelName": "leaf"
+    },
+    {
+      "id": "dec_1785240430185",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 0,
+        "y": -1.5,
+        "z": 0
+      },
+      "size": {
+        "x": 2.1,
+        "y": 2.1,
+        "z": 2.1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/forest_diorama.glb",
+      "customModelHasMat": true,
+      "customModelName": "forest_diorama"
+    },
+    {
+      "id": "dec_1785240433888",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": -1.470564980941981,
+        "y": 1.4730720426587034,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/fly_agaric_mushroom.glb",
+      "customModelHasMat": true,
+      "customModelName": "fly_agaric_mushroom"
+    },
+    {
+      "id": "dec_1785240436953",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 1.4600916768314587,
+        "y": 0.08050266038047105,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/flowers.glb",
+      "customModelHasMat": true,
+      "customModelName": "flowers"
+    },
+    {
+      "id": "dec_1785240441241",
+      "shape": "custom",
+      "material": "original",
+      "color": "#888888",
+      "position": {
+        "x": 0,
+        "y": 1.4820969273194309,
+        "z": 0
+      },
+      "size": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "structural": {
+        "deformation": "none",
+        "fluidDistort": 0.35,
+        "fluidSpeed": 1.5
+      },
+      "customModelUrl": "/phys_tool/src/assets/models%20-%20mushrooms/earth.glb",
+      "customModelHasMat": true,
+      "customModelName": "earth"
+    }
+  ],
+  "layers": [
+    {
+      "id": "1",
+      "name": "Death cap (Amanita phalloides)",
+      "percentage": 10,
+      "color": "#7C8C4E"
+    },
+    {
+      "id": "2",
+      "name": "Destroying angel (Amanita virosa)",
+      "percentage": 10,
+      "color": "#F0ECE0"
+    },
+    {
+      "id": "3",
+      "name": "Funeral bell (Galerina marginata)",
+      "percentage": 9,
+      "color": "#6B4E31"
+    },
+    {
+      "id": "4",
+      "name": "Deadly webcap (Cortinarius rubellus)",
+      "percentage": 8,
+      "color": "#A0522D"
+    },
+    {
+      "id": "5",
+      "name": "False morel (Gyromitra esculenta)",
+      "percentage": 6,
+      "color": "#8B4A2F"
+    },
+    {
+      "id": "6",
+      "name": "Panther cap (Amanita pantherina)",
+      "percentage": 5,
+      "color": "#C2A878"
+    },
+    {
+      "id": "7",
+      "name": "Fly agaric (Amanita muscaria)",
+      "percentage": 3,
+      "color": "#D62828"
+    },
+    {
+      "id": "8",
+      "name": "Satan's bolete (Rubroboletus satanas)",
+      "percentage": 4,
+      "color": "#C77B7B"
+    },
+    {
+      "id": "9",
+      "name": "Jack-o'-lantern (Omphalotus olearius)",
+      "percentage": 4,
+      "color": "#E68A00"
+    },
+    {
+      "id": "10",
+      "name": "Ivory funnel (Clitocybe dealbata)",
+      "percentage": 7,
+      "color": "#E4DAC4"
+    },
+    {
+      "id": "11",
+      "name": "Fool's funnel (Clitocybe rivulosa)",
+      "percentage": 7,
+      "color": "#CFC8B8"
+    },
+    {
+      "id": "12",
+      "name": "The sickener (Russula emetica)",
+      "percentage": 2,
+      "color": "#E0455E"
+    }
+  ],
+  "activeDataset": "mushroomToxicity",
+  "activeModelCollection": "mushrooms",
+  "colorMode": "distinct",
+  "colorGradient": {
+    "from": "#EE6655",
+    "to": "#4488EE"
+  },
+  "colorTint": false,
+  "thumbnail": "data:image/jpeg;base64,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"
+}

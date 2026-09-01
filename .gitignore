@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# Local tool config (personal, not for the public repo)
+.claude/
