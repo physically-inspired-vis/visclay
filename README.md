@@ -4,9 +4,24 @@ Part of the [Physically-Inspired Visualization](https://physically-inspired-vis.
 
 ## Development
 
+The deform, shatter and fluid probes drive Blender through a small Express
+server. Run both, in two terminals:
+
 ```bash
 npm install --legacy-peer-deps
-npm run dev
+
+npm run server   # Blender jobs, on http://localhost:3001
+npm run dev      # the site, on http://localhost:5173/visclay/
+```
+
+In dev the client falls back to `http://localhost:3001`, so nothing needs
+configuring - no tunnel, no secrets. Particles need no server at all.
+
+Blender must be installed. The server looks in the default location per
+platform; override it with `BLENDER_PATH` if yours lives elsewhere:
+
+```bash
+BLENDER_PATH="/path/to/blender" npm run server
 ```
 
 ## Deployment

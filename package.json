@@ -6,14 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server/server.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.17.10",
     "@react-three/postprocessing": "^3.0.4",
     "@react-three/rapier": "^2.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "html2canvas": "^1.4.1",
+    "multer": "^2.2.0",
     "postprocessing": "^6.39.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -21,6 +25,9 @@
     "three-gpu-pathtracer": "^0.0.20"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@types/three": "^0.168.0",

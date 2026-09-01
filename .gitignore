@@ -5,3 +5,8 @@ dist/
 
 # Local tool config (personal, not for the public repo)
 .claude/
+
+# Server runtime artifacts
+server/jobs/
+__pycache__/
+*.pyc
