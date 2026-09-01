@@ -77,8 +77,15 @@ export function resolveCustomModel<T extends {
   if (config.shape !== 'custom') return config
   const url = config.customModelName ? byName[config.customModelName] : undefined
   if (url) return { ...config, customModelUrl: url }
-  // Blob URLs are session-only — fall back to box
-  if (!config.customModelUrl || config.customModelUrl.startsWith('blob:')) {
+  // Anything we can't fetch here falls back to a box: blob URLs are session-only,
+  // and a scene exported from another deployment carries that deployment's asset
+  // paths (e.g. /phys_tool/...), which 404 under a different base. Letting those
+  // through makes the GLTF loader throw, which unmounts the whole canvas.
+  const base = import.meta.env.BASE_URL || '/'
+  const usable = !!config.customModelUrl
+    && !config.customModelUrl.startsWith('blob:')
+    && config.customModelUrl.startsWith(base)
+  if (!usable) {
     return { ...config, shape: 'box' as MarkShape, customModelUrl: undefined, customModelHasMat: undefined }
   }
   return config
