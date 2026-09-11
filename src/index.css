@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Lab UI theme ──────────────────────────────────────────────────────────────
+   Single source of truth for the lab chrome (sidebars, panels, controls).
+   Change --lab-accent to reskin every accent across all labs at once. The 3D
+   viewports and in-scene colours are NOT driven by these. */
+:root {
+  --lab-accent:        #5E5CE6;  /* matches the main interface's slider colour */
+  --lab-accent-soft:   #eeedfc;  /* light tint for active / hover backgrounds   */
+  --lab-accent-border: #cbc9f6;  /* light accent border                          */
+  --lab-surface:       #ffffff;  /* panels / sidebar                             */
+  --lab-fill:          #f2f2f7;  /* control fills / app background               */
+  --lab-border:        #d1d1d6;
+  --lab-divider:       #e5e5ea;
+  --lab-text:          #1d1d1f;  /* primary text                                 */
+  --lab-text-2:        #3a3a3c;  /* secondary text (darker for contrast)         */
+  --lab-text-3:        #5a5a5e;  /* muted text / labels / inactive icons         */
+  --lab-text-4:        #7c7c81;  /* faint text                                   */
+  --lab-danger:        #e0342a;  /* delete / error                               */
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #F2F2F7;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0.4;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F2F2F7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7C7CC;
+  border-radius: 3px;
+}

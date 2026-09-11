@@ -1,0 +1,216 @@
+{
+  "deform": [
+    {
+      "id": "1782819163991",
+      "name": "Slice - whale",
+      "createdAt": "2026-06-30T11:32:43.991Z",
+      "data": {
+        "shape": "model",
+        "fileName": "game-ready_humpback_whale.glb",
+        "deformMode": "SLICE",
+        "factor": 50,
+        "axis": "Z",
+        "limitMin": 0,
+        "limitMax": 1,
+        "animSpeed": 0.8,
+        "subdivs": 0,
+        "bindings": { "factor": "percentage" },
+        "bindingRange": { "outMin": 0, "outMax": 1 },
+        "cutColor": "#cc2222"
+      }
+    },
+    {
+      "id": "1782776770752",
+      "name": "Slice - apple",
+      "createdAt": "2026-06-29T23:46:10.752Z",
+      "data": {
+        "shape": "model",
+        "fileName": "apple.glb",
+        "deformMode": "SLICE",
+        "factor": 50,
+        "axis": "X",
+        "limitMin": 0,
+        "limitMax": 1,
+        "animSpeed": 0.8,
+        "subdivs": 0,
+        "bindings": { "factor": "percentage" },
+        "bindingRange": { "outMin": 0, "outMax": 1 },
+        "cutColor": "#cc2222"
+      }
+    },
+    {
+      "id": "1782774509665",
+      "name": "Stretch - earth",
+      "createdAt": "2026-06-29T23:08:29.665Z",
+      "data": {
+        "shape": "model",
+        "fileName": "earth (2).glb",
+        "deformMode": "STRETCH",
+        "factor": 1.25,
+        "axis": "X",
+        "limitMin": 0,
+        "limitMax": 1,
+        "animSpeed": 2,
+        "subdivs": 0,
+        "bindings": {},
+        "bindingRange": { "outMin": 0, "outMax": 1 },
+        "cutColor": "#cc2222"
+      }
+    },
+    {
+      "id": "1782774230630",
+      "name": "Stretch - building",
+      "createdAt": "2026-06-29T23:03:50.630Z",
+      "data": {
+        "shape": "model",
+        "fileName": "building_05.glb",
+        "deformMode": "STRETCH",
+        "factor": 1,
+        "axis": "Y",
+        "limitMin": 0,
+        "limitMax": 1,
+        "animSpeed": 2,
+        "subdivs": 0,
+        "bindings": { "factor": "value" },
+        "bindingRange": { "outMin": 0, "outMax": 1 },
+        "cutColor": "#cc2222"
+      }
+    },
+    {
+      "id": "1782773672117",
+      "name": "Twist - Building",
+      "createdAt": "2026-06-29T22:54:32.117Z",
+      "data": {
+        "shape": "model",
+        "fileName": "building_05.glb",
+        "deformMode": "TWIST",
+        "factor": 180,
+        "axis": "Z",
+        "limitMin": 0,
+        "limitMax": 1,
+        "animSpeed": 2.1,
+        "subdivs": 0,
+        "bindings": { "factor": "value" },
+        "bindingRange": { "outMin": 0, "outMax": 1 },
+        "cutColor": "#cc2222"
+      }
+    }
+  ],
+  "shatter": [
+    {
+      "id": "1784657473301",
+      "name": "Piggy Bank",
+      "createdAt": "2026-07-21T18:11:13.301Z",
+      "data": {
+        "fileName": "piggy_bank.glb",
+        "cutSpread": 0.5,
+        "fractureMethod": "voronoi",
+        "cutStrategy": "largest",
+        "voxelDiv": 30,
+        "adaptivity": 0,
+        "impulse": 1.5,
+        "anim": "exploded",
+        "dataRows": [
+          { "category": "2007", "value": 3, "percentage": 2 },
+          { "category": "2008", "value": 25, "percentage": 16 },
+          { "category": "2009", "value": 140, "percentage": 89 },
+          { "category": "2010", "value": 157, "percentage": 100 },
+          { "category": "2011", "value": 92, "percentage": 59 }
+        ],
+        "hasModels": true
+      }
+    },
+    {
+      "id": "1784655019731",
+      "name": "Bank failures",
+      "createdAt": "2026-07-21T17:30:19.731Z",
+      "data": {
+        "fileName": "building_05.glb",
+        "cutSpread": 0.5,
+        "fractureMethod": "voronoi",
+        "cutStrategy": "largest",
+        "voxelDiv": 30,
+        "adaptivity": 0,
+        "impulse": 1.5,
+        "anim": "gravity",
+        "dataRows": [
+          { "category": "2007", "value": 3, "percentage": 2 },
+          { "category": "2008", "value": 25, "percentage": 16 },
+          { "category": "2009", "value": 140, "percentage": 89 },
+          { "category": "2010", "value": 157, "percentage": 100 },
+          { "category": "2011", "value": 92, "percentage": 59 }
+        ],
+        "hasModels": true
+      }
+    },
+    {
+      "id": "1784652780746",
+      "name": "Bank failures (apple)",
+      "createdAt": "2026-07-21T16:53:00.746Z",
+      "data": {
+        "fileName": "apple.glb",
+        "cutSpread": 0.5,
+        "fractureMethod": "bisect",
+        "cutStrategy": "random",
+        "voxelDiv": 30,
+        "adaptivity": 0,
+        "impulse": 1.5,
+        "anim": "exploded",
+        "dataRows": [
+          { "category": "2007", "value": 3, "percentage": 2 },
+          { "category": "2008", "value": 25, "percentage": 16 },
+          { "category": "2009", "value": 140, "percentage": 89 },
+          { "category": "2010", "value": 157, "percentage": 100 },
+          { "category": "2011", "value": 92, "percentage": 59 }
+        ],
+        "reference": {
+          "title": "Annual CO₂ emissions per country",
+          "image": "co2-emissions.png",
+          "link": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL&tab=map&time=latest"
+        },
+        "hasModels": true
+      }
+    }
+  ],
+  "particles": [
+    {
+      "id": "1784519503994",
+      "name": "Air Pollution",
+      "createdAt": "2026-07-20T03:51:43.994Z",
+      "data": {
+        "shape": "sphere",
+        "fileName": "",
+        "count": 3000,
+        "size": 0.04,
+        "forces": {
+          "gravity": 0.15,
+          "turbulence": 0.8,
+          "vortex": 0,
+          "attraction": 1,
+          "damping": 2,
+          "emitSpeed": 0.1
+        },
+        "render": {
+          "colorMode": "speed",
+          "blending": "additive",
+          "brightness": 1.5,
+          "solidColor": "#5566ff",
+          "trailOn": false,
+          "trailLen": 50,
+          "trailSize": 1,
+          "bloomOn": false,
+          "bloomInt": 0.8
+        },
+        "pollution": true,
+        "dataRows": [
+          { "category": "Copenhagen", "value": 9, "percentage": 10 },
+          { "category": "Paris", "value": 14, "percentage": 15 },
+          { "category": "Athens", "value": 22, "percentage": 24 },
+          { "category": "Beijing", "value": 55, "percentage": 60 },
+          { "category": "Delhi", "value": 92, "percentage": 100 }
+        ]
+      }
+    }
+  ],
+  "fluid": []
+}

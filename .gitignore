@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+
+# Server runtime artifacts
+server/jobs/
+__pycache__/
+*.pyc
